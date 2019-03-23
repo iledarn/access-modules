@@ -11,7 +11,7 @@ Configuration
 =============
 
 * first of all, you should have access to ``Customers`` menu. This menu can be activated for example by installing the ``sale`` module or ``contacts``
-* assumed the `sale` module is installed
+* assumed the ``sale`` module is installed
 
  * `Log in as SUPERUSER <https://odoo-development.readthedocs.io/en/latest/odoo/usage/login-as-superuser.html>`__
  * `Activate Developer Mode <https://odoo-development.readthedocs.io/en/latest/odoo/usage/debug-mode.html>`__
@@ -27,7 +27,7 @@ Usage
 
 * Create a user for testing
 * Open menu ``[[ Settings ]]>> Users >> Users`` and select your user to edit
-* On the form choose ``Sales -> Manager``
+* On the form choose ``Sales -> Manager`` and click ``[Save]`` button.
 * Log in using your testing user account
 * Open menu ``[[ Sales ]] >> Sales >> Customers``, deactivate ``Customers`` filter.
 * RESULT: You should not see your private contact in the list
