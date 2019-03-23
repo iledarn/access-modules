@@ -10,7 +10,7 @@ Installation
 Configuration
 =============
 
-* first of all, you should have access to `Customers` menu. This menu can be activated for example by installin the `sale` module or `contacts`
+* first of all, you should have access to ``Customers`` menu. This menu can be activated for example by installing the ``sale`` module or ``contacts``
 * assumed the `sale` module is installed
 
  * `Log in as SUPERUSER <https://odoo-development.readthedocs.io/en/latest/odoo/usage/login-as-superuser.html>`__
