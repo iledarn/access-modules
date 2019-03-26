@@ -28,5 +28,16 @@
       <field name="perm_create" eval="False"/>
       <field name="perm_unlink" eval="False"/>
     </record>
+    <!-- Relex previous rule for yourself -->
+    <record id="res_partner_private_yourself" model="ir.rule">
+      <field name="name">res.partner.rule.private.yourself</field>
+      <field name="model_id" ref="base.model_res_partner"/>
+      <field name="domain_force">[('id', '=', user.partner_id.id)]</field>
+      <field name="groups" eval="[(4, ref('base.group_user'))]"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="False"/>
+      <field name="perm_create" eval="False"/>
+      <field name="perm_unlink" eval="False"/>
+    </record>
   </data>
 </openerp>
