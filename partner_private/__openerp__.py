@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Private partners',
-    'version': '8.0.1.0.0',
+    'version': '8.0.1.0.1',
     'author': 'Ildar Nasyrov',
     'category': 'Access',
     'website': 'https://github.com/iledarn',
