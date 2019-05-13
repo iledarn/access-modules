@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <!-- <record id="view_task_form2_inherited_access_messaging" model="ir.ui.view"> -->
+    <!--   <field name="name">project.task.form</field> -->
+    <!--   <field name="model">project.task</field> -->
+    <!--   <field name="inherit_id" ref="project.view_task_form2"/> -->
+    <!--   <field name="arch" type="xml"> -->
+    <!--     <xpath expr="//div[@class='oe_chatter']" position="attributes"> -->
+    <!--       <attribute name="invisible">1</attribute> -->
+    <!--     </xpath> -->
+    <!--   </field> -->
+    <!-- </record> -->
+    <!-- <record id="edit_project_inherited_access_messaging" model="ir.ui.view"> -->
+    <!--   <field name="name">project.project.form</field> -->
+    <!--   <field name="model">project.project</field> -->
+    <!--   <field name="inherit_id" ref="project.edit_project"/> -->
+    <!--   <field name="arch" type="xml"> -->
+    <!--     <xpath expr="//field[@name='message_follower_ids']" position="attributes"> -->
+    <!--       <attribute name="invisible">1</attribute> -->
+    <!--     </xpath> -->
+    <!--     <xpath expr="//field[@name='message_ids']" position="attributes"> -->
+    <!--       <attribute name="invisible">1</attribute> -->
+    <!--     </xpath> -->
+    <!--   </field> -->
+    <!-- </record> -->
+  </data>
+</openerp>
